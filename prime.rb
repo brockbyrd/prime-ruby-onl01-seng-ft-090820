@@ -7,7 +7,7 @@ def prime?(num)
     n += 1
   end
   
-  if prime_num.include(false)
+  if prime_num.include?(false)
     false
   else
     true
